@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    background-size: cover;
+    overflow: hidden;
+    background: url("https://wallpaperaccess.com/full/2456522.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+a {
+    color: white;
+    text-decoration-color: white;
+}
+
+a,
+.btn {
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+}
+
+nav a:hover {
+    color: #1AA7EC;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.links {
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-family: "cursive";
+    padding: 2px;
+    border: 5px;
+    color: white;
+    font-size: 55px;
+}
+
+#name:hover {
+    cursor: default;
+}
+
+#all {
+    display: flex;
+    gap: space-evenly;
+    background-color: #640D6B;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+p {
+    color: rgb(97, 97, 97);
+}
+
+#container {
+    height: 350px;
+    width: 350px;
+    display: inline-flex;
+    gap: 30px;
+    position: absolute;
+    animation: slide 8s infinite;
+}
+
+#skills {
+    font-size: 100px;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    color: black;
+    text-shadow: 2px 0px 10px gray;
+}
+
+.des {
+    text-align: center;
+    font-size: medium;
+    margin: 10px 10px 10px 10px;
+}
+
+@keyframes slide {
+    0% {
+        left: 100%;
+    }
+
+    10% {
+        left: 0%;
+    }
+
+    40% {
+        left: 0%;
+    }
+
+    50% {
+        left: -50%;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+#container img:nth-child(1) {
+    animation-delay: 2s;
+}
+
+#container img:nth-child(2) {
+    animation-delay: 4s;
+}
+
+#container img:nth-child(3) {
+    animation-delay: 6s;
+}

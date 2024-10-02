@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI', Tahoma, Geneva, Verdana, sans-serif";
+    background-size: cover;
+    overflow: hidden;
+    background: url("https://wallpaperaccess.com/full/2456522.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+a,
+#home {
+    color: white;
+    text-decoration-color: white;
+}
+
+a,
+.btn {
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 7rem;
+}
+
+nav a:hover {
+    color: #1AA7EC;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.links {
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-family: "cursive";
+    padding: 2px;
+    border: 5px;
+    color: white;
+    font-size: 55px;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 5px darkseagreen;
+}
+
+#name:hover {
+    cursor: default;
+}
+
+#all {
+    display: flex;
+    gap: space-evenly;
+    background-color: #640D6B;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+#aboutme {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin: 30px 30px 30px 30px;
+    border: 2px solid white;
+    border-radius: 7%;
+}
+
+#Name {
+    font-size: 100px;
+    font-weight: 200px;
+    text-shadow: 2px 2px 4px #66ccff;
+    color: #63a3e2;
+}
+
+p {
+    color: rgb(97, 97, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+#abit {
+    font-size: 2rem;
+    text-shadow: 2px 0px 10px gray;
+}
+
+.text {
+    font-size: 1.4rem;
+}
